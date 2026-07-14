@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="welcome">
+      <p>What do you need help with next?</p>
+      <button onclick="showGuide('documents')">📄 Essential Documents</button>
+      <button onclick="showGuide('employment')">💼 Employment</button>
+      <button onclick="showGuide('transportation')">🚌 Transportation</button>
+    </div>
+    <div id="documents" class="guide">
+      <h2>📄 Essential Documents</h2>
+      <p>You do not need to gather everything at once. Start with what you need most urgently.</p>
+      <h3>1. Birth Certificate</h3>
+      <p>You may need a certified copy for identification, benefits, employment paperwork, or replacing other documents.</p>
+      <h3>2. State ID or Driver's License</h3>
+      <p>A current photo ID is often needed for employment, housing, banking, healthcare, and many everyday tasks.</p>
+      <h3>3. Social Security Card</h3>
+      <p>You may need your card or Social Security number for employment and other applications.</p>
+      <h3>4. Diploma, GED, or Education Records</h3>
+      <p>Gather proof of your highest level of education, including any vocational training or certificates earned while incarcerated.</p>
+      <h3>5. Release Documents</h3>
+      <p>Keep your release paperwork and any documents you received when you came home together in one safe place.</p>
+      <h3>6. Supervision Information</h3>
+      <p>If applicable, save your officer's name, phone number, office address, reporting instructions, and next appointment somewhere easy to find.</p>
+      <h3>7. Health Insurance Information</h3>
+      <p>Keep your insurance card, member information, or other healthcare coverage details accessible.</p>
+      <p><strong>Your next step:</strong> Look through this list. What do you already have? What are you missing? Start with the missing document you need most urgently.</p>
+      <button onclick="showWelcome()">← Choose another need</button>
+    </div>
+    <div id="employment" class="guide">
+      <h2>💼 Employment</h2>
+      <p>You do not have to have everything figured out today. Start with what you already have.</p>
+      <h3>1. Work Experience</h3>
+      <p>Write down your previous jobs, work assignments completed while incarcerated, volunteer experience, and any other responsibilities that demonstrate your skills and reliability.</p>
+      <h3>2. Skills, Training, and Certifications</h3>
+      <p>List skills you already have — including certifications, vocational training, technical skills, and skills gained through lived experience.</p>
+      <h3>3. Resume</h3>
+      <p>Turn your experience into a clear resume focused on what you can contribute. If you need help, many reentry and workforce programs offer free resume assistance.</p>
+      <h3>4. References</h3>
+      <p>Identify people who can speak to your character and work ethic. This could include former employers, teachers, mentors, program staff, or community members.</p>
+      <h3>5. Cover Letters</h3>
+      <p>A short cover letter can help you introduce yourself and explain why you are a strong candidate before an employer meets you.</p>
+      <h3>6. Know Your Story</h3>
+      <p>Think about how you want to talk about your background if an employer asks. Practice telling your story until you feel comfortable with it. You do not need to share every detail — prepare a brief, honest answer that takes responsibility, shows your growth, and brings the conversation back to who you are today and what you can contribute.</p>
+      <p><strong>Your next step:</strong> Look through this list and choose the one thing that is keeping you from moving forward. Start there. You do not have to complete everything today.</p>
+      <button onclick="showWelcome()">← Choose another need</button>
+    </div>
+    <div id="transportation" class="guide">
+      <h2>🚌 Transportation</h2>
+      <p>Reliable transportation is one of the most practical things you can plan for. Start by understanding your options.</p>
+      <h3>1. Public Transportation</h3>
+      <p>Find out what bus, light rail, or other public transit is available where you live. Learn how to plan a route, check schedules, pay fares, and identify the stops closest to home, work, and important appointments.</p>
+      <h3>2. Rides When You Need Them</h3>
+      <p>Identify options for trips that public transportation cannot cover or when timing is critical. These might include Uber, Lyft, taxis, or rides from trusted family and friends.</p>
+      <h3>3. Walking and Biking</h3>
+      <p>Consider what is realistically within walking or biking distance. Think about the route, weather, safety, and how long the trip will take.</p>
+      <h3>4. Transportation Assistance</h3>
+      <p>Some workforce and reentry programs may help with transportation costs, bus passes, or other support. Ask employment programs, reentry organizations, and community resource providers what assistance is currently available.</p>
+      <h3>5. Have a Backup Plan</h3>
+      <p>Think about what you will do if your usual transportation falls through. Save important phone numbers and know your second option before you need it.</p>
+      <h3>6. Know Your Regular Routes</h3>
+      <p>Identify the places you need to reach most often — work, appointments, healthcare, grocery stores, or family. Learn the route and travel time before an important day whenever possible.</p>
+      <p><strong>Your next step:</strong> Choose the place you most need to reach this week. Find your first transportation option and one backup option.</p>
+      <button onclick="showWelcome()">← Choose another need</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
