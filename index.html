@@ -6,10 +6,15 @@
     <title>NEXT</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+ <body>
     <div id="welcome">
       <img src="nextlogo.png" alt="NEXT - Your next step forward" style="width: 100%; max-width: 400px;" />
+      <button onclick="document.getElementById('about').style.display='block'">About</button>
       <button onclick="window.location.href='next.html'">Begin</button>
+    </div>
+    <div id="about" style="display:none;">
+      <p>NEXT is a simple guide to help you take your next step forward after incarceration. You don't have to figure everything out at once. Start with what you need most.</p>
+      <button onclick="document.getElementById('about').style.display='none'">← Back</button>
     </div>
   </body>
 </html>
